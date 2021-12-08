@@ -1,0 +1,210 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/extra.css">
+    
+    <script defer src="/font-awesome/js/brands.js"></script>
+    <script defer src="/font-awesome/js/solid.js"></script>
+    <script defer src="/font-awesome/js/fontawesome.js"></script>
+  </head>
+
+
+  <body>
+    <div data-sticky-container>
+      <div class="title-bar" style="z-index: 50; max-height: 3rem;" data-sticky data-options="marginTop:0;"> 
+        <div class="title-bar-left">
+            <span class="title-bar-title">Get Baking!</span>
+        </div>
+        <div class="title-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="recipeList.html?recipes=allrecipes">
+                    Recipes
+                  </a>
+
+                  <ul class="menu yellowBackground">
+                      <li>
+                        <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                          Seasonal Recipes
+                        </a>
+                      
+                        <ul class="menu yellowBackground">
+                          <li>
+                            <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                              Christmas Recipes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="/recipeList.html?recipes=allrecipes" style="font-family:serif">
+                          All Recipes
+                        </a>
+                      </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#" style="font-family:serif">
+                    Create Recipe
+                  </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="medium-8 column">
+          <div style="width: 100%; height: 400px; overflow: hidden;">
+            <video autoplay muted loop controls disablePictureInPicture controlsList="nodownload" style="z-index: 1; transform: translateY(-20%);">
+              <source src="./images/Baking_Cookies_Alt.mp4" type="video/mp4">
+            </video>
+            
+            <div class="overlayOverVideo" style="transform: translateY(3rem); text-align: center;">
+              <div class="grid-container" style="transform: translateY(15%)";>
+                  <img src="./images/LogoLarge.png" style="width: 25%;">
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="grid-x">
+          <div class="grid-container cell small-6" style="background-color: white;">
+            <div class="christmasContainer">
+              <h2 style="font-family:serif; text-align: center;">
+                Recommended Recipes for this Christmas
+              </h2>
+            </div>
+    
+            <div class="grid-container christmasCarosel ">
+              <div class="column">
+                <div class="orbit" role="region" aria-label="Christmas Recipes" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container">
+                    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                    <li class="is-active orbit-slide">
+                      <a href="recipePage.html?recipe=ChristmasCakePresent">
+                        <img class="orbit-image" src="/images/recipe/ChristmasCakePresent.jpg" alt="Christmas Cake Present">
+                        <figcaption class="orbit-caption">
+                          Christmas Cake Present
+                        </figcaption>
+                      </a>                      
+                    </li>
+
+                    <li class="orbit-slide">
+                      <a href="recipePage.html?recipe=DinnerTraybake">
+                        <img class="orbit-image" src="/images/recipe/DinnerTraybake.jpg" alt="Christmas Dinner Traybake">
+                        <figcaption class="orbit-caption">
+                          Christmas Dinner Traybake
+                        </figcaption>
+                      </a>   
+                    </li>
+                    
+                    <li class="orbit-slide">
+                      <a href="recipePage.html?recipe=GingerbreadCake">
+                        <img class="orbit-image" src="/images/recipe/GingerbreadCake.jpg" alt="Gingerbread Cake">
+                        <figcaption class="orbit-caption">
+                          Gingerbread Cake
+                        </figcaption>
+                      </a>  
+                    </li>
+
+                    <li class="orbit-slide">
+                      <a href="recipePage.html?recipe=ChristmasPuddingCake">
+                        <img class="orbit-image" src="/images/recipe/ChristmasPuddingCake.jpg" alt="Christmas Pudding Cake">
+                        <figcaption class="orbit-caption">
+                          Christmas Pudding Cake
+                        </figcaption>
+                      </a>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">Christmas Cake Present</span><span class="show-for-sr">Current Slide</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Christmas Dinner Traybake</span></button>
+                    <button data-slide="2"><span class="show-for-sr">Gingerbread Cake</span></button>
+                    <button data-slide="3"><span class="show-for-sr">Christmas Pudding Cake</span></button>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column cell auto" style="background-color: white;">
+            <h4 class="fontStyle" style="padding-top: 60px;">
+              <b>Get Baking!</b>
+            </h4>
+            
+            <p style="font-size: larger;">
+              Here at Get Baking we offer a variety of baking recipes from multiple sources of varying degrees of difficulty.
+              <br><br>
+              Our hope is to spread the joy and fun when it comes to baking straight to your home, allowing you to experience the same things we enjoy here.
+            </p>
+
+            <h4 class="fontStyle" style="padding-top: 20px;">
+              <b>Christmas 2021</b>
+            </h4>
+
+            <p style="font-size: larger;">
+              We know how tough it's been these past two years, so we've decided to find some of our favourite Christmas themed recipes to lighten your mood this festive season!
+              <br><br>
+              The joy around this time of year is even better with some of our favourite baked recipes. What are you waiting for? Get Baking!
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x small-up-3" id="recipeCardHolder">
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="grid-x grid-padding-x grid-padding-y large-up-3">
+        <div class="cell auto">
+          <a href=#>
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>  
+        </div>
+
+        <div class="cell auto">
+          <a href=#>
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>  
+        </div>
+
+        <div class="cell auto">
+          <a href=#>
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>  
+        </div>
+
+        <div class="cell auto">
+          <a href=#>
+            <i class="fab fa-pinterest-square fa-2x"></i>
+          </a>  
+        </div>
+      </div>      
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/recipes.json"></script>
+    <script src="js/recipeCardGenerator.js"></script>
+  </body>
+</html>

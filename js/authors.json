@@ -1,0 +1,49 @@
+[
+    {
+        "author": "Philippa Davis",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": "../images/authors/philippa_davis_1x1.jpg"
+    },
+
+    {
+        "author": "Frances Quinn",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": "../images/authors/frances_1x1.jpg"
+    },
+
+    {
+        "author": "Nigella Lawson",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": "../images/authors/nigella_lawson_1x1.jpg"
+    },
+
+    {
+        "author": "Rick Stein",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": "../images/authors/rick_stein_1x1.jpg"
+    },
+
+    {
+        "author": "Becca Spry",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": null
+    },
+
+    {
+        "author": "Rachel Allen",
+        "facebook": null,
+        "twitter": null,
+        "instagram": null,
+        "image": "../images/authors/rachel_allen_1x1.jpg"
+    }
+]
