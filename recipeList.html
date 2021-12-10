@@ -1,0 +1,311 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/extra.css">
+
+    <script defer src="/font-awesome/js/brands.js"></script>
+    <script defer src="/font-awesome/js/solid.js"></script>
+    <script defer src="/font-awesome/js/fontawesome.js"></script>
+  </head>
+
+  <body>
+    <div data-sticky-container>
+      <div class="title-bar" style="z-index: 50; max-height: 3rem;" data-sticky data-options="marginTop:0;"> 
+        <div class="title-bar-left">
+            <span class="title-bar-title">Get Baking!</span>
+        </div>
+        <div class="title-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="recipeList.html?recipes=allrecipes">
+                    Recipes
+                  </a>
+
+                  <ul class="menu yellowBackground">
+                      <li>
+                        <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                          Seasonal Recipes
+                        </a>
+                      
+                        <ul class="menu yellowBackground">
+                          <li>
+                            <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                              Christmas Recipes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="/recipeList.html?recipes=allrecipes" style="font-family:serif">
+                          All Recipes
+                        </a>
+                      </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="createRecipe.html" style="font-family:serif">
+                    Create Recipe
+                  </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="height: 15rem;">
+      <img src="recipePagePicture.jfif" style="width: 100%; height: 100%; object-fit: cover;" \>        
+    </div>
+
+    <div class="grid-container" style="text-align: left; color:black;">
+      <h2 style="font-family:serif">
+        Recipes
+      </h2>
+
+      <ul class="tabs" data-tabs id="recipe-tabs">
+        <li class="tabs-title is-active" id="seasonalRecipesTabTitle">
+          <a href="#seasonal-recipes" aria-selected="true" class="accordianTabTitle" style="font-size: large;" id="seasonalLink">
+            Seasonal Recipes
+          </a>
+        </li>
+
+        <li class="tabs-title" id="allRecipesTabTitle">
+          <a href="#all-recipes" class="accordianTabTitle" style="font-size: large;" id="allLink">
+            All Recipes
+          </a>
+        </li>
+      </ul>
+
+      <div class="tabs-content" data-tabs-content="recipe-tabs">
+        
+        <!-- Seasonal Recipes Tab below -->  
+
+        <div class="tabs-panel is-active" id="seasonal-recipes">
+          <h3 style="font-family: serif;">
+            Featured Seasonal Recipe
+          </h3>
+
+          <div class="grid-x">
+            <div class="cell small-6">
+              <a href="/recipePage.html?recipe=DinnerTraybake">
+                <img src="images/recipe/DinnerTraybake.jpg" style="max-width: 100%"/> 
+              </a>
+            </div>
+
+            <div class="cell small-6" style="padding-left: 10px;">
+              <a href="/recipePage.html?recipe=DinnerTraybake">
+                <h3 class="fontStyle" style="color: #ff80c4;">
+                  <b>Christmas Dinner Traybake</b>
+                </h3>
+              </a>
+
+              <h5 class="fontStyle">
+                <b>By Joe</b>
+              </h5>
+
+              <p style="font-size: large;">
+                Love Christmas dinner, but only have a basic kitchen set-up? This Christmas dinner traybake is the recipe for you.
+              </p>
+
+              <p style="font-size: large;">
+                Perfect for Friendmas and easy on the washing up, too!
+              </p>
+            </div>
+          </div>
+
+          <h4 style="font-family: serif; padding-top: 20px;">
+            Seasonal Recipes
+          </h4>
+
+          <div class="grid-x grid-padding-x grid-padding-y medium-up-3">
+            <div class="cell">
+              <a href="recipePage.html?recipe=GingerbreadCake">
+                <img src="images/recipe/GingerbreadCake.jpg" style="max-width: 100%;">
+              </a>
+
+              <a href="recipePage.html?recipe=GingerbreadCake">
+                <p class="fontStyle" style="font-size: larger;">
+                  <b>Gingerbread Cake</b>
+                </p>
+              </a>
+
+              <p style="transform: translateY(-50%);">
+                By Amy
+              </p>
+            </div>
+
+            <div class="cell">
+              <a href="recipePage.html?recipe=ChristmasCakePresent">
+                <img src="images/recipe/ChristmasCakePresent.jpg" style="max-width: 100%;">
+              </a>
+
+              <a href="recipePage.html?recipe=ChristmasCakePresent">
+                <p class="fontStyle" style="font-size: larger;">
+                  <b>Christmas Cake Present</b>
+                </p>
+              </a>
+
+              <p style="transform: translateY(-50%);">
+                By Joe
+              </p>
+            </div>
+
+            <div class="cell">
+              <a href="recipePage.html?recipe=ChristmasPuddingCake">
+                <img src="images/recipe/ChristmasPuddingCake.jpg" style="max-width: 100%;">
+              </a>
+
+              <a href="recipePage.html?recipe=ChristmasPuddingCake">
+                <p class="fontStyle" style="font-size: larger;">
+                  <b>Christmas Pudding Cake</b>
+                </p>
+              </a>
+
+              <p style="transform: translateY(-50%);">
+                By Louise
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- All Recipes Tab below -->
+
+      <div class="tabs-panel" id="all-recipes">
+        <h3 style="font-family: serif;">
+          Featured Recipe
+        </h3>
+
+        <div class="grid-x">
+          <div class="cell small-6">
+            <a href="recipePage.html?recipe=LinzerCookies">
+              <img src="images/recipe/LinzerCookies.jpg" style="max-width: 100%"/> 
+            </a>              
+          </div>
+
+          <div class="cell small-6" style="padding-left: 10px;">
+            <a href="recipePage.html?recipe=LinzerCookies">
+              <h3 class="fontStyle" style="color: #ff80c4;">
+                <b>Linzer Cookies</b>
+              </h3>
+            </a>
+
+            <h5 class="fontStyle">
+              <b>By Joe</b>
+            </h5>
+
+            <p style="font-size: large;">
+              In its wildest dreams, a jammy dodger could never aspire to the melting tenderness and celestial lightness of the Linzer cookie. The idea is the same: two biscuits, sandwiched together with jam, a hole or small shape cut out of the top one, so that the jam glints beckoningly through.
+            </p>
+
+            <p style="font-size: large;">
+              But the Linzer cookie is the extravagant Austrian Christmas version, the dough rich and short with ground toasted hazelnuts.
+            </p>
+          </div>
+        </div>
+
+        <h4 style="font-family: serif; padding-top: 20px;">
+          All Recipes
+        </h4>
+
+        <div class="grid-x grid-padding-x grid-padding-y medium-up-3">
+          <div class="cell">
+            <a href="recipePage.html?recipe=GermanAppleCake">
+              <img src="images/recipe/GermanAppleCake.jpg" style="max-width: 100%;">
+            </a>
+
+            <a href="recipePage.html?recipe=GermanAppleCake">
+              <p class="fontStyle" style="font-size: larger;">
+                <b>German Apple Cake</b>
+              </p>
+            </a>
+
+            <p style="transform: translateY(-50%);">
+              By Amy
+            </p>
+          </div>
+
+          <div class="cell">
+            <a href="recipePage.html?recipe=LemonDrizzleCake">
+              <img src="images/recipe/LemonDrizzleCake.jpg" style="max-width: 100%;">
+            </a>
+
+            <a href="recipePage.html?recipe=LemonDrizzleCake">
+              <p class="fontStyle" style="font-size: larger;">
+                <b>Lemon Drizzle Cake</b>
+              </p>
+            </a>
+
+            <p style="transform: translateY(-50%);">
+              By Amy
+            </p>
+          </div>
+
+          <div class="cell">
+            <a href="recipePage.html?recipe=RichChocolateAlmondCake">
+              <img src="images/recipe/RichChocolateAlmond.jpg" style="max-width: 100%;">
+            </a>
+
+            <a href="recipePage.html?recipe=RichChocolateAlmondCake">
+              <p class="fontStyle" style="font-size: larger;">
+                <b>Rich Chocolate Almond Cake</b>
+              </p>
+            </a>
+
+            <p style="transform: translateY(-50%);">
+              By Amy
+            </p>
+          </div>
+
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+  <footer>
+    <div class="grid-x grid-padding-x grid-padding-y large-up-3">
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-pinterest-square fa-2x"></i>
+        </a>  
+      </div>
+    </div>      
+  </footer>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/recipeList.js"></script>
+
+  </body>
+</html>

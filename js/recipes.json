@@ -1,0 +1,1150 @@
+[
+    {
+        "uuid": "1",
+        "author": "Philippa Davis",
+        "name": "Christmas Dinner Traybake",
+        "key": "DinnerTraybake",
+        "cookTime": "1 to 2 hours",
+        "prepTime": "30 minutes",
+        "yield": "4 people",
+        "description": [
+            "Love Christmas dinner, but only have a basic kitchen set-up? This Christmas dinner traybake is the recipe for you.",
+            "Perfect for Friendmas and easy on the washing up, too!"
+        ],
+        "image": "../images/recipe/DinnerTraybake.jpg",
+        "recipeType": ["christmas"],
+        "ingredients": {
+            "Turkey Marinade": [
+                {
+                    "ingredient": "honey",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "thyme",
+                    "weight": 1,
+                    "type": "teaspoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "orange",
+                    "weight": 1,
+                    "type": null,
+                    "size": null,
+                    "note": "zest and 1 tablespoon juice only"
+                },
+
+                {
+                    "ingredient": "cinnamon",
+                    "weight": 1,
+                    "type": "teaspoon",
+                    "size": null,
+                    "note": "ground"
+                }
+            ],
+
+            "Meat": [
+                {
+                    "ingredient": "turkey breast fillet",
+                    "weight": 100,
+                    "type": "g",
+                    "size": 8,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "chipolata sausages",
+                    "weight": null,
+                    "type": null,
+                    "size": 8,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "rashers smoked streaky bacon",
+                    "weight": null,
+                    "type": null,
+                    "size": 16,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "Black Peppar",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": "salt and freshly ground"
+                }
+            ],
+
+            "Vegetables and Stuffing": [
+                {
+                    "ingredient": "roasting potatoes",
+                    "weight": 500,
+                    "type": "g",
+                    "size": null,
+                    "note": "peeled, cut into evenly sized chunks, rinsed"
+                },
+
+                {
+                    "ingredient": "carrots",
+                    "weight": 300,
+                    "type": "g",
+                    "size": null,
+                    "note": "peeled and cut into batons"
+                },
+
+                {
+                    "ingredient": "parsnips",
+                    "weight": 300,
+                    "type": "g",
+                    "size": null,
+                    "note": "peeled and cut into batons"
+                },
+
+                {
+                    "ingredient": "rosemary",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "olive oil or duck or goose fat",
+                    "weight": 6,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Sprouts": [
+                {
+                    "ingredient": "brussels sprout",
+                    "weight": "200",
+                    "type": "g",
+                    "size": null,
+                    "note": "sliced in half"
+                },
+
+                {
+                    "ingredient": "garlic cloves",
+                    "weight": null,
+                    "type": null,
+                    "size": 2,
+                    "note": "crushed to a paste with little salt"
+                },
+
+                {
+                    "ingredient": "chestnuts",
+                    "weight": 180,
+                    "type": "g",
+                    "size": null,
+                    "note": "Cooked, rougly chopped, peeled"
+                },
+
+                {
+                    "ingredient": "rosemary",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "olive oil",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "Butter",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": "room temperature"
+                }
+            ]
+        },
+
+        "steps": [
+            "Preheat the oven to 200C/190C Fan/Gas 6",
+            "In a bowl, stir all the turkey marinade ingredients together with a little salt and freshly ground black pepper.",
+            "For the meat, add the turkey pieces to the marinade and combine. Cover and leave for 20 minutes in the fridge to marinate.",
+            "To assemble, put a piece of turkey and a chipolata together, wrapping two rashers of bacon around them to hold. Repeat with the remaining turkey pieces. They will look like large pigs-in-blankets.",
+            "For the roast vegetables, place the potatoes, carrots and parsnips in a large pan of cold water with a little salt. Bring to a simmer and then cook for 8–10 minutes – or until the edges of the potatoes are a little soft. Drain well in a colander, shake and leave to cool for 5 minutes.",
+            "Tip the vegetables into a large mixing bowl, season with salt and pepper, add the rosemary and 4 tablespoons of the olive oil (or goose or duck fat). Mix well.",
+            "Spread the vegetables over the roasting tray and roast for 30 minutes. Keep the mixing bowl for the next stage.",
+            "For the sprouts, using the same mixing bowl, season the Brussels sprouts and toss with the garlic, chestnuts, olive oil and butter.",
+            "When the root vegetables have been roasting for 30 minutes, scatter over the Brussels sprouts and chestnuts. Gently move all the vegetables around then cook for a further 10 minutes.",
+            "Place the wrapped turkey and stuffing balls on top of the vegetables. Drizzle the remaining olive oil (or goose or duck fat) over everything and return to the oven for 25 minutes, or until the turkey is cooked through. Leave to rest for a few minutes before serving with a jug of hot gravy and a bowl of cranberry sauce."
+
+        ]
+    },
+
+    {
+        "uuid": "2",
+        "author": "Frances Quinn",
+        "name": "Gingerbread Cake",
+        "key": "GingerbreadCake",
+        "cookTime": "Over 2 hours",
+        "prepTime": "30 minutes to 1 hour",
+        "yield": "Makes 20cm/8in cake",
+        "description": [
+            "Christmas cake with a difference. I’ve embraced the cut out technique using an actual gingerbread man cutter. Feel free to use one large gingerbread man or, depending on the size of your cake, a mix. I prefer to keep my gingerbread men looking quite classic, but decorate them however you like. Coloured sweet buttons and candy canes are both popular choices.",
+            "Equipment and preparation: You will need gingerbread man cutters of various sizes and a piping bag."
+        ],
+        "image": "../images/recipe/GingerbreadCake.jpg",
+        "recipeType": ["christmas"],
+        "ingredients": {
+            "Gingerbread Cake": [
+                {
+                    "ingredient": "mixed dried fruit",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "such as sultanas, raisins and currants"
+                },
+
+                {
+                    "ingredient": "dried cranberries",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "soft prunes",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "soft-dried dates",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "dried figs",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "brandy",
+                    "weight": 150,
+                    "type": "ml",
+                    "size": null,
+                    "note": "plus optional to 'feed' the cake"
+                },
+
+                {
+                    "ingredient": "mixed whole nuts",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "softened"
+                },
+
+                {
+                    "ingredient": "dark muscovado sugar",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "black treacle or date syrup",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": "optional"
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": null,
+                    "type": null,
+                    "size": 3,
+                    "note": "beaten"
+                },
+
+                {
+                    "ingredient": "self raising flour",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ground mixed spice",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Decoration": [
+                {
+                    "ingredient": "apricot jam",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ready to roll fondant",
+                    "weight": 750,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "marzipan",
+                    "weight": 750,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "fondant water icing",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "marzipan",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "small coloured sweets or sprinkles",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                }                
+            ]
+        },
+
+        "steps": [
+            "Put the mixed dried fruit and cranberries in a bowl. Using kitchen scissors, snip the prunes, dates and figs into small pieces, removing any stalks, and drop into the bowl. Add the brandy and orange zest and juice, and stir well to combine. Cover the bowl with a shower cap, clingfilm or plate and leave to soak in a cool place for at least 12 hours or, even better, 2 days.",
+            "When you’re ready to make the cake, grease and line a 20cm/8in round loose-bottomed tin and preheat the oven to 180C/160C Fan/Gas 4.",
+            "Spread the nuts on a baking tray and toast, checking frequently to be sure they don’t burn, for 5–10 minutes or until fragrant (you can skip the toasting, but it really brings out their flavour). Cool, then chop the nuts – I like them relatively chunky to contrast with the fruit. Turn the oven down to 140C/120C Fan/Gas 1.",
+            "Using a hand-held electric whisk (it’s tricky to beat this small quantity in a free-standing mixer), beat together the butter and sugar for 5–10 minutes or until very light and creamy. Beat in the treacle or syrup, if using. Gradually add the eggs to the butter and sugar mixture, beating well after each addition. Sift the flour and spice into the mixture and fold in. Finally, stir through the soaked fruit, with any liquid left in the bowl, and the chopped nuts.",
+            "Spoon the mixture into your prepared tin and smooth the surface with the back of a spoon dipped in hot water. Bake for 2¼–2½ hours or until the cake is firm to the touch and a skewer pushed into the centre comes out clean. Set the tin on a wire rack. If you want to ‘feed’ the cake, leave it to cool for about 15 minutes, then prick the top all over with a cocktail stick or skewer, going about 3cm deep. Brush over about 1 tablespoon of brandy. Leave to soak in while the cake is cooling. Once the cake is cold, remove from the tin and wrap in fresh baking parchment, if you like, and then in foil before storing in an airtight tin or container for at least 5 days before eating. You can repeat the feeding process weekly for up to 5 weeks.",
+            "When you’re ready to finish the cake, gently heat the apricot jam and spread over the surface of the cake. Roll out the marzipan to about the thickness of a pound coin and cover the whole cake. Roll out the fondant icing to the same thickness and cover the cake completely, pressing down to smooth it out.",
+            "Place your gingerbread man cutter/s on to the surface of your fully iced cake according to your desired arrangement. Press your cutter/s through the fondant and marzipan layers and remove the icing with the cutter still inserted to help give a cleaner outline. Add the gingerbread man features to the cut out shape using either cut out and shaped pieces of white fondant or fondant water icing placed in a piping bag. Marzipan shapes and sweets can be added on to an around your gingerbread man shapes for extra decoration."
+        ]
+    },
+
+    {
+        "uuid": "3",
+        "author": "Frances Quinn",
+        "name": "Christmas Cake Present",
+        "key": "ChristmasCakePresent",
+        "cookTime": "Over 2 hours",
+        "prepTime": "30 minutes to 1 hour",
+        "yield": "Makes 20cm/8in cake",
+        "description": [
+            "The perfect Christmas gift? A Christmas cake present! Wrapped up in a traditional double layer of marzipan and fondant, and finished off with gingerbread biscuit tags, this fruit cake makes the perfect present. Fresh holly and mini baubles can also add another decorative festive flourish."
+        ],
+        "image": "../images/recipe/ChristmasCakePresent.jpg",
+        "recipeType": ["christmas"],
+        "ingredients": {
+            "Christmas Cake Present": [
+                {
+                    "ingredient": "mixed dried fruit",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "such as sultanas, raisins and currants"
+                },
+
+                {
+                    "ingredient": "dried cranberries",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "soft prunes",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "soft-dried dates",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "dried figs",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "brandy",
+                    "weight": 150,
+                    "type": "ml",
+                    "size": null,
+                    "note": "plus optional to 'feed' the cake"
+                },
+
+                {
+                    "ingredient": "mixed whole nuts",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "softened"
+                },
+
+                {
+                    "ingredient": "dark muscovado sugar",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "black treacle or date syrup",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": "optional"
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": null,
+                    "type": null,
+                    "size": 3,
+                    "note": "beaten"
+                },
+
+                {
+                    "ingredient": "self raising flour",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ground mixed spice",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Decoration": [
+                {
+                    "ingredient": "apricot jam",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ready to roll fondant",
+                    "weight": 750,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "marzipan",
+                    "weight": 750,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "selection of ribbons",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "gingerbread gift tags",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": "optional"
+                }         
+            ]
+        },
+
+        "steps": [
+            "Put the mixed dried fruit and cranberries in a bowl. Using kitchen scissors, snip the prunes, dates and figs into small pieces, removing any stalks, and drop into the bowl. Add the brandy and orange zest and juice, and stir well to combine. Cover the bowl with a shower cap, clingfilm or plate and leave to soak in a cool place for at least 12 hours or, even better, 2 days.",
+            "When you’re ready to make the cake, grease and line a 20cm/8in square tin and preheat the oven to 180C/160C Fan/Gas 4.",
+            "Spread the nuts on a baking tray and toast, checking frequently to be sure they don’t burn, for 5–10 minutes or until fragrant (you can skip the toasting, but it really brings out their flavour). Cool, then chop the nuts – I like them relatively chunky to contrast with the fruit. Turn the oven down to 140C/120C Fan/Gas 1.",
+            "Using a hand-held electric whisk (it’s tricky to beat this small quantity in a free-standing mixer), beat together the butter and sugar for 5–10 minutes or until very light and creamy. Beat in the treacle or syrup, if using. Gradually add the beaten eggs to the butter and sugar mixture, beating well after each addition. Sift the flour and spice into the mixture and fold in. Finally, stir through the soaked fruit, with any liquid left in the bowl, and the chopped nuts.",
+            "Spoon the mixture into your prepared tin and smooth the surface with the back of a spoon dipped in hot water. Bake for 2¼–2½ hours or until the cake is firm to the touch and a skewer pushed into the centre comes out clean. Set the tin on a wire rack. If you want to ‘feed’ the cake, leave it to cool for about 15 minutes, then prick the top all over with a cocktail stick or skewer, going about 3cm deep. Brush over about 1 tablespoon of brandy. Leave to soak in while the cake is cooling. Once the cake is cold, remove from the tin and wrap in fresh baking parchment, if you like, and then in foil before storing in an airtight tin or container for at least 5 days before eating. You can repeat the feeding process weekly for up to 5 weeks.",
+            "When you’re ready to finish the cake, gently heat the apricot jam and spread over the surface of the cake. Roll out the marzipan to about the thickness of a pound coin and cover the whole cake. Roll out the fondant icing to the same thickness and cover the cake completely, pressing down to smooth it out.",
+            "Once covered in marzipan and fondant. Decorate your cakes with your chosen ribbons and trimmings, tucking the ends of the ribbons under the cake – the weight of the cake will secure them, although pins can be used. Just don’t forget to remove them before eating! If you've made gingerbread gift tags tie them to the ribbons on the cake, using either actual ribbons or strawberry laces if using. Holly and mini baubles can be added alongside or in place of the tags, depending on the size and style of the present."
+        ]
+    },
+
+    {
+        "uuid": "4",
+        "author": "Frances Quinn",
+        "name": "Christmas Pudding Cake",
+        "key": "ChristmasPuddingCake",
+        "cookTime": "Over 2 hours",
+        "prepTime": "30 minutes to 1 hour",
+        "yield": "Makes 20cm/8in cake",
+        "description": [
+            "A Christmas cake and pudding in one simple cut out! Frances Quinn's ingenious Christmas cake combines two classics in one with this simple technique."
+        ],
+        "image": "../images/recipe/ChristmasPuddingCake.jpg",
+        "recipeType": ["christmas"],
+        "ingredients": {
+            "Christmas Pudding Cake": [
+                {
+                    "ingredient": "mixed dried fruit",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "such as sultanas, raisins and currants"
+                },
+
+                {
+                    "ingredient": "dried cranberries",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "soft prunes",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "soft-dried dates",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "pitted"
+                },
+
+                {
+                    "ingredient": "dried figs",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "brandy",
+                    "weight": 150,
+                    "type": "ml",
+                    "size": null,
+                    "note": "plus optional to 'feed' the cake"
+                },
+
+                {
+                    "ingredient": "orange",
+                    "weight": "1/2",
+                    "type": null,
+                    "size": null,
+                    "note": "finely grated zest and juice"
+                },
+
+                {
+                    "ingredient": "mixed whole nuts",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": "softened"
+                },
+
+                {
+                    "ingredient": "dark muscovado sugar",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "black treacle or date syrup",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": "optional"
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": null,
+                    "type": null,
+                    "size": 3,
+                    "note": "beaten"
+                },
+
+                {
+                    "ingredient": "self raising flour",
+                    "weight": 150,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ground mixed spice",
+                    "weight": 3,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Decoration": [
+                {
+                    "ingredient": "apricot jam",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ready to roll fondant",
+                    "weight": 750,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "marzipan",
+                    "weight": 1000,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "mincemeat",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "small sprig holly leaves",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                },
+                
+                {
+                    "ingredient": "glace cherries or cranberries",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                }  
+            ]
+        },
+
+        "steps": [
+            "Put the mixed dried fruit and cranberries in a bowl. Using kitchen scissors, snip the prunes, dates and figs into small pieces, removing any stalks, and drop into the bowl. Add the brandy and orange zest and juice, and stir well to combine. Cover the bowl with a shower cap, clingfilm or plate and leave to soak in a cool place for at least 12 hours or, even better, 2 days.",
+            "When you’re ready to make the cake, grease and line a 20cm/8in round loose-bottomed tin and preheat the oven to 180C/160C Fan/Gas 4.",
+            "Spread the nuts on a baking tray and toast, checking frequently to be sure they don’t burn, for 5–10 minutes or until fragrant (you can skip the toasting, but it really brings out their flavour). Cool, then chop the nuts – I like them relatively chunky to contrast with the fruit. Turn the oven down to 140C/120C Fan/Gas 1.",
+            "Using a hand-held electric whisk (it’s tricky to beat this small quantity in a free-standing mixer), beat together the butter and sugar for 5–10 minutes or until very light and creamy. Beat in the treacle or syrup, if using. Gradually add the beaten eggs to the butter and sugar mixture, beating well after each addition. Sift the flour and spice into the mixture and fold in. Finally, stir through the soaked fruit, with any liquid left in the bowl, and the chopped nuts.",
+            "Spoon the mixture into your prepared tin and smooth the surface with the back of a spoon dipped in hot water. Bake for 2¼–2½ hours or until the cake is firm to the touch and a skewer pushed into the centre comes out clean. Set the tin on a wire rack. If you want to ‘feed’ the cake, leave it to cool for about 15 minutes, then prick the top all over with a cocktail stick or skewer, going about 3cm deep. Brush over about 1 tablespoon of brandy. Leave to soak in while the cake is cooling. Once the cake is cold, remove from the tin and wrap in fresh baking parchment, if you like, and then in foil before storing in an airtight tin or container for at least 5 days before eating. You can repeat the feeding process weekly for up to 5 weeks.",
+            "When you’re ready to finish the cake, gently heat the apricot jam and spread over the surface of the cake. Roll out the marzipan to about the thickness of a pound coin and cover the whole cake. Roll out the fondant icing to the same thickness and cover the cake completely, pressing down to smooth it out.",
+            "Place a round template, plate or round cake tin smaller than the diameter of your cake on the top and cut around it with a knife or scalpel. Carefully remove the circle of fondant and marzipan to reveal your naked cake inner circle.",
+            "Using the template you used before to help yout, cut out a simple custard shape from the marzipan circle. Press this into the top of your cut out circle to create the custard effect. Next carefully spoon some mincemeat into the remainder of the cut out shape to produce a plump looking pudding, or leave out entirely if you want. Finally place and position your holly, cherries or cranberries into the top of the pudding shape to finish."
+        ]
+    },
+
+    {
+        "uuid": "5",
+        "author": "Nigella Lawson",
+        "name": "Linzer Cookies",
+        "key": "LinzerCookies",
+        "cookTime": "30 minutes to 1 hour",
+        "prepTime": "1 to 2 hours",
+        "yield": "Makes 24-28 sandwich cookies",
+        "description": [
+            "In its wildest dreams, a jammy dodger could never aspire to the melting tenderness and celestial lightness of the Linzer cookie. The idea is the same: two biscuits, sandwiched together with jam, a hole or small shape cut out of the top one, so that the jam glints beckoningly through. But the Linzer cookie is the extravagant Austrian Christmas version, the dough rich and short with ground toasted hazelnuts.",
+            "You’ll need a 6cm/2½in round cookie cutter (smooth, not crinkle-edged) to make these and, ideally, a set of mini Christmas cutters – bell, heart, Christmas tree, snowflake, angel, star – though you could always use the sharp end of a piping nozzle to make a small hole. I do feel the investment in the mini cutters is worthwhile, however, as I foresee many batches of these in your future."
+        ],
+        "image": "../images/recipe/LinzerCookies.jpg",
+        "recipeType": null,
+        "ingredients": {
+            "Cookies": [
+                {
+                    "ingredient": "hazelnuts",
+                    "weight": 100,
+                    "type": "g",
+                    "size": null,
+                    "note": "skinned and toasted"
+                },
+
+                {
+                    "ingredient": "caster sugar",
+                    "weight": 125,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "plain flour",
+                    "weight": 300,
+                    "type": "g",
+                    "size": null,
+                    "note": "plus extra for dipping the cutter"
+                },
+
+                {
+                    "ingredient": "unsalted butter",
+                    "weight": 200,
+                    "type": "g",
+                    "size": null,
+                    "note": "cold if using a processor, soft if making by hand"
+                },
+
+                {
+                    "ingredient": "cinnamon",
+                    "weight": 0.25,
+                    "type": "teaspoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "egg",
+                    "weight": 1,
+                    "type": "large",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "egg yolk",
+                    "weight": 1,
+                    "type": "large",
+                    "size": null,
+                    "note": "beaten at room temperature"
+                },
+
+                {
+                    "ingredient": "icing sugar",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": "to dust the cookies"
+                },
+
+                {
+                    "ingredient": "redcurrant jelly",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "seedless raspberry jam",
+                    "weight": 4,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ]
+        },
+
+        "steps": [
+            "If you have a food processor, tip the toasted hazelnuts and caster sugar into the processor and blitz to a fine sandy texture, then add the flour. Cut the cold butter into 1cm/½in dice and add to the processor, along with the cinnamon, salt, whole egg and egg yolk. Run the processor until the contents start to form a dough; this won’t happen instantly, so be patient.",
+            "If you don’t have a processor but have a bullet blender, you can grind the hazelnuts in that. Or if you have neither, simply use ready-ground almonds. To make the cookies by hand, mix the ground nuts with the flour, cinnamon and salt and set aside. Cream the butter and caster sugar together. Very gradually beat the eggs into the butter mixture. Add the dry ingredients, a little at a time, and beat in until the mixture forms a soft dough.",
+            "Divide the dough into 4 equal pieces. Roll each piece into a ball, then gently squash to form fat discs. Cover tightly in cling film and put in the fridge for 1 hour. You can leave them in the fridge for up to 3 days.",
+            "Once your dough has rested, take 2 of the discs out of the fridge and let them stand for about 15 minutes, or longer if either your fridge is very cold or the dough’s been sitting in it for a long time. While you wait, preheat the oven to 180C/160C Fan/Gas 4. Get out 2 baking trays and measure out 2 pieces of baking paper the same size as the trays.",
+            "Put 1 piece of baking paper directly on the worktop and when the dough is firm, but not too cold – roll out 1 of the discs thinly (2–3mm/less than ¼in thick) on the baking paper. If your dough is very sticky, you can roll it out between 2 pieces of baking paper. Using a 6cm/2½in round cookie cutter, dipped first in flour, cut 6 circles in the rolled dough – you don’t have to leave a huge gap between the cookies, as the dough doesn’t really spread much. Lift away the excess dough, leaving your circles on the baking paper. Carefully place this baking paper on 1 of your baking trays. Form a ball with the excess dough to re-roll later.",
+            "Repeat the process with the next disc of dough, only this time you’re making the top half of the cookies, so once you have your 6 circles you will need to dip your mini cutters in flour and then cut out your shapes – and if the shape you’re stamping out doesn’t come out with the cutter, use a cocktail stick to help. Add the offcuts to the other scraps of dough, ready for re-rolling. If your kitchen is warm it can really help to put these cookies in the fridge on their parchment-lined baking sheets for 10 minutes or so, as it will help the cut-out shapes keep a clean edge.",
+            "Bake the cookies for 9–10 minutes, until they’re only just beginning to turn a very light gold at the edges; they will, overall, still be pale. Transfer immediately to a wire rack or, if you’d feel safer, gently slide the loaded parchment on to the rack instead. Repeat the process with the 2 remaining discs and all the squidged-together offcuts, making sure the baking sheets are cold before you load them up.",
+            "When all the cookies are completely cold, they are ready to be sandwiched. Dust the biscuits you’ve cut a shape out of with icing sugar and leave on the wire rack. Mix the jelly and jam together until smooth, and spread ½ teaspoon of this mixture over one non-dusted cookie half, leaving a pale frame around the edge. Pick up a sugar-dusted cookie, carefully holding the edges only, and place it on top of the jam-loaded cookie, feeling justifiably proud of yourself and your beautiful Christmassy creation. And carry on with the rest of the cookies, your festive sense of bliss increasing giddily as you go."
+        ]
+    },
+
+    {
+        "uuid": "6",
+        "author": "Rick Stein",
+        "name": "German Apple Cake",
+        "key": "GermanAppleCake",
+        "cookTime": "30 minutes to 1 hour",
+        "prepTime": "less than 30 minutes",
+        "yield": "Serves 10",
+        "description": [
+            "Apple cake is revered in Germany, and Rick Stein's classic apfelkuchen with a crunchy cinnamon topping will show you why. Any dessert apples will work for this, but avoid using Bramleys that won't keep their shape."
+        ],
+        "image": "../images/recipe/GermanAppleCake.jpg",
+        "recipeType": null,
+        "ingredients": {
+            "German Apple Cake": [
+                {
+                    "ingredient": "dessert apples",
+                    "weight": 2,
+                    "type": null,
+                    "size": null,
+                    "note": "peeled, cored and sliced into thin wedges"
+                },
+
+                {
+                    "ingredient": "lemon juice",
+                    "weight": 1,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 125,
+                    "type": "g",
+                    "size": null,
+                    "note": "softened, plus extra for greasing"
+                },
+
+                {
+                    "ingredient": "golden caster sugar",
+                    "weight": 140,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": 3,
+                    "type": null,
+                    "size": null,
+                    "note": "room temperature, beaten"
+                },
+
+                {
+                    "ingredient": "plain flour",
+                    "weight": 225,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "baking powder",
+                    "weight": 2,
+                    "type": "level teaspoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "salt",
+                    "weight": "1/2",
+                    "type": "teaspoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "full-fat milk",
+                    "weight": 5,
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Topping": [
+                {
+                    "ingredient": "demerara sugar",
+                    "weight": "1 1/2",
+                    "type": "tablespoon",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "ground cinnamon",
+                    "weight": "1/2",
+                    "type": "teaspoon",
+                    "size": null,
+                    "note": null
+                }
+            ]
+        },
+
+        "steps": [
+            "Preheat the oven to 170C/150C Fan/Gas 3. Butter and line a 23cm/9in round cake tin.",
+            "Coat the apple wedges in the lemon juice and set aside.",
+            "In a large bowl, beat together the butter and sugar, using an electric hand mixer, until pale and fluffy. Add the eggs and beat until smooth. Sift in the flour, baking powder and salt and mix well. Slowly add the milk, mixing well after each addition, until you have a smooth batter.",
+            "Transfer the batter to the cake tin. Arrange the apple slices, flat-side down, on the batter in a spiral pattern.",
+            "For the topping, mix together the demerara sugar and cinnamon. Sprinkle over the batter.",
+            "Bake in the middle of the oven for 40–45 minutes, or until a skewer inserted in the centre of the cake comes out clean and the top is golden-brown. Leave to cool for 15 minutes in the tin. Run a knife around the edges of the cake and turn it out of the tin onto a wire rack.",
+            "Serve warm or at room temperature with whipped cream."
+        ]
+    },
+
+    {
+        "uuid": "7",
+        "author": "Becca Spry",
+        "name": "Lemon Drizzle Cake",
+        "key": "LemonDrizzleCake",
+        "cookTime": "30 minutes to 1 hour",
+        "prepTime": "less than 30 minutes",
+        "yield": "Serves 8-10",
+        "description": [
+            "This wonderfully simple lemon drizzle cake recipe is super-quick to prepare and perfect for weekend baking with the kids."
+        ],
+        "image": "../images/recipe/LemonDrizzleCake.jpg",
+        "recipeType": null,
+        "ingredients": {
+            "Lemon Drizzle Cake": [
+                {
+                    "ingredient": "unsalted butter",
+                    "weight": 225,
+                    "type": "g",
+                    "size": null,
+                    "note": "softened, plus extra for greasing"
+                },
+
+                {
+                    "ingredient": "caster sugar",
+                    "weight": 225,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": 4,
+                    "type": null,
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "self-raising flour",
+                    "weight": 225,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "unwaxed lemon",
+                    "weight": 1,
+                    "type": null,
+                    "size": null,
+                    "note": "zest and juice"
+                },
+
+                {
+                    "ingredient": "icing sugar",
+                    "weight": 85,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                }
+            ]
+        },
+
+        "steps": [
+            "Preheat the oven to 180C/160C Fan/Gas 4. Grease a 900g/2lb loaf tin with a little butter and line with baking paper.",
+            "Tip the remaining butter and caster sugar into a food processor and blend for a few seconds. Add the eggs one at a time, blending after each addition. Add the flour and lemon zest and blend until smooth.",
+            "Pour the batter into the lined baking tin, flatten the top with the back of a spoon and bake for 50–55 minutes.",
+            "Meanwhile, stir together the lemon juice and icing sugar. When the cake has cooled a little, poke holes in the top using a skewer, chopstick or a piece of raw spaghetti. Drizzle over the icing, set aside for a few minutes, and serve."
+        ]
+    },
+
+    {
+        "uuid": "8",
+        "author": "Rachel Allen",
+        "name": "Rich Chocolate Almond Cake",
+        "key": "RichChocolateAlmondCake",
+        "cookTime": "30 minutes to 1 hour",
+        "prepTime": "less than 30 minutes",
+        "yield": "Serves 8",
+        "description": [
+            "This chocolate cake is perfect with an espresso at the end of a meal. It is very easy to make and keeps well for days."
+        ],
+        "image": "../images/recipe/RichChocolateAlmond.jpg",
+        "recipeType": null,
+        "ingredients": {
+            "Rich Chocolate Almond Cake": [
+                {
+                    "ingredient": "melted butter",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": "for greasing the tin"
+                },
+
+                {
+                    "ingredient": "dark chocolate",
+                    "weight": 250,
+                    "type": "g",
+                    "size": null,
+                    "note": "chopped"
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 210,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "caster sugar",
+                    "weight": 250,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "eggs",
+                    "weight": 5,
+                    "type": null,
+                    "size": null,
+                    "note": "beaten"
+                },
+
+                {
+                    "ingredient": "ground almonds",
+                    "weight": 75,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                }
+            ],
+
+            "Chocolate Glaze": [
+                {
+                    "ingredient": "dark chocolate",
+                    "weight": 200,
+                    "type": "g",
+                    "size": null,
+                    "note": "chopped"
+                },
+
+                {
+                    "ingredient": "milk",
+                    "weight": 50,
+                    "type": "ml",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "butter",
+                    "weight": 75,
+                    "type": "g",
+                    "size": null,
+                    "note": null
+                },
+
+                {
+                    "ingredient": "whisky",
+                    "weight": null,
+                    "type": null,
+                    "size": null,
+                    "note": "to taste (optional)"
+                }
+            ]
+        },
+
+        "steps": [
+            "Preheat the oven to 160C/325F/Gas 3.",
+            "Butter the sides of a 23cm/9in diameter cake tin (or spring-form tin) and line the bottom with greaseproof paper. Place the chocolate, butter and sugar in a bowl set over a saucepan of simmering water. Do not allow the bottom of the bowl to touch the water. Stir until smooth and melted.",
+            "Remove from the heat and allow to cool slightly. Beat in the eggs, and fold in the ground almonds.",
+            "Pour the mixture into the cake tin and bake for about 45mins, until the centre is just set. Allow to cool in the tin.",
+            "To make the chocolate glaze, in a bowl sitting over a saucepan of simmering water, making sure the bowl does not touch the water. Melt the chocolate, milk and butter together and stir until smooth. Stir in whisky, to taste. Allow to cool a little until it has thickened slightly (about 10 minutes) but do not place in the fridge as it will lose its glossy sheen.",
+            "Take the cooled cake out of the tin and place on a plate or cake stand, and pour the glaze over the top, letting it drizzle down the sides."
+        ]
+    }
+]
