@@ -1,19 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/extra.css">
 
-<html>
-    <head>
-        <title>
-            Create Recipe
-        </title>
+    <script defer src="/font-awesome/js/brands.js"></script>
+    <script defer src="/font-awesome/js/solid.js"></script>
+    <script defer src="/font-awesome/js/fontawesome.js"></script>
+  </head>
 
-        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    </head>
+  <body>
+    <div data-sticky-container>
+      <div class="title-bar" style="z-index: 50; max-height: 3rem;" data-sticky data-options="marginTop:0;"> 
+        <div class="title-bar-left">
+            <span class="title-bar-title">Get Baking!</span>
+        </div>
+        <div class="title-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="recipeList.html?recipes=allrecipes">
+                    Recipes
+                  </a>
 
-    <body>
-        <div id="navigationBar"></div>
+                  <ul class="menu yellowBackground">
+                      <li>
+                        <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                          Seasonal Recipes
+                        </a>
+                      
+                        <ul class="menu yellowBackground">
+                          <li>
+                            <a href="/recipeList.html?recipes=seasonal" style="font-family:serif">
+                              Christmas Recipes
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
 
-        <script type="text/babel" src="./components/navigationBar.js"></script>
-    </body>
+                      <li>
+                        <a href="/recipeList.html?recipes=allrecipes" style="font-family:serif">
+                          All Recipes
+                        </a>
+                      </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="createRecipe.html" style="font-family:serif">
+                    Create Recipe
+                  </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+    <div class="grid-x grid-padding-x grid-padding-y large-up-3">
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </a>  
+      </div>
+
+      <div class="cell auto">
+        <a href=#>
+          <i class="fab fa-pinterest-square fa-2x"></i>
+        </a>  
+      </div>
+    </div>      
+  </footer>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
 </html>
