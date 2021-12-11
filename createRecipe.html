@@ -68,7 +68,7 @@
             Create Recipe
         </h2>
 
-        <h4>
+        <h4 style="display: none;">
             Using Template
         </h4>
     </div>
@@ -114,6 +114,16 @@
                     </label>
 
                     <label class="inputBoxFont">
+                        Preparation Time
+                        <input id="preparationTimeInput" type="text" placeholder="Input preparation time">
+                    </label>
+
+                    <label class="inputBoxFont">
+                        Cooking Time
+                        <input id="cookingTimeInput" type="text" placeholder="Input cooking time">
+                    </label>
+
+                    <label class="inputBoxFont">
                         Author Facebook (optional)
                         <input id="authorFacebookInput" type="url" placeholder="Input url">
                     </label>
@@ -126,17 +136,7 @@
                     <label class="inputBoxFont">
                         Author Instagram (optional)
                         <input id="authorInstagramInput" type="url" placeholder="Input url">
-                    </label>
-
-                    <label class="inputBoxFont">
-                        Preparation Time
-                        <input id="preparationTimeInput" type="text" placeholder="Input preparation time">
-                    </label>
-
-                    <label class="inputBoxFont">
-                        Cooking Time
-                        <input id="cookingTimeInput" type="text" placeholder="Input cooking time">
-                    </label>
+                    </label>                    
                 </div>
             </div>
             
@@ -274,6 +274,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="OverviewAlertCallout" class="alert callout" style="display: none;" data-closable>
+            <h5 id="OverviewCalloutText">
+                X can't be blank
+            </h5>
+
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+              </button>
         </div>
 
         <div style="padding: 2rem;">

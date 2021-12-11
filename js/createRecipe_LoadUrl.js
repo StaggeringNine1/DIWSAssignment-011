@@ -1,5 +1,7 @@
 var showRecipeButton = document.getElementById("ShowRecipe");
 
+var overviewAlertCallout = document.getElementById("OverviewAlertCallout");
+var overviewCalloutText = document.getElementById("OverviewCalloutText");
 
 showRecipeButton.onclick = function() {
     var url = '../saveRecipe.html'
@@ -41,11 +43,23 @@ showRecipeButton.onclick = function() {
     url = url.replace("=&", "?")
 
     if (recipeName.value == "" || authorName.value == "" || preparationTime.value == "" || cookingTime.value == "") {
+        overviewCalloutText.textContent = "Ensure that all required fields are filled out";
 
+        overviewAlertCallout.style.display = "block";
+
+        setTimeout(() => {
+            overviewAlertCallout.style.display = "none";
+        }, 5000);
     }
     else {
         if (params.getAll("recipeStep").length == 0 || params.getAll("ingredient").length == 0) {
+            overviewCalloutText.textContent = "You need at least one ingredient and recipe step";
+        
+            overviewAlertCallout.style.display = "block";
 
+            setTimeout(() => {
+                overviewAlertCallout.style.display = "none";
+            }, 5000);
         } 
         else {
             window.open(url)
