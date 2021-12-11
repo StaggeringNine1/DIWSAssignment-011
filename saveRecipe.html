@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recipes</title>
+        <title>Save Recipe</title>
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/extra.css">
@@ -15,9 +15,52 @@
     </head>
   
     <body>
-        <div>
+        <p class="inputBoxFont" id="Template_Print" style="display: none;">
+            • Ingredient 1
+        </p>
+
+        <div class="newGridContainer" style="padding-top: 2rem;">
+            <a class="button inputBoxFont" id="SaveButton_Print">
+                Save Recipe to PDF
+            </a>
+
+            <div id="saveElement" style="padding-top: 2rem;">
+                <h4 id="RecipeName_Print">
+                    Recipe Name
+                </h4>
+                
+                <h5 id="AuthorName_Print">
+                    By Author
+                </h5>
+
+                <p class="inputBoxFont" style="padding-top: 3rem; font-size: large;" id="PreparationTime_Print">
+                    Preparation Time: 30 minutes
+                </p>
+
+                <p class="inputBoxFont" style="font-size: large;" id="CookingTime_Print">
+                    Cooking Time: 30 minutes
+                </p>
+
+                <h5 style="padding-top: 0.5rem;" class="inputBoxFont">
+                    <b>Ingredients</b>
+                </h5>
+
+                <div id="IngredientList_Print">
+
+                </div>
+
+                <h5 style="padding-top: 0.5rem;" class="inputBoxFont">
+                    <b>Steps</b>
+                </h5>
+
+                <div id="StepList_Print">
+
+                </div>
+            </div>
             
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>

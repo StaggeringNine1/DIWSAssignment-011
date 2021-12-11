@@ -1,11 +1,11 @@
-var url = '../saveRecipe.html'
-
-let params = new URLSearchParams(url);
-
 var showRecipeButton = document.getElementById("ShowRecipe");
 
 
 showRecipeButton.onclick = function() {
+    var url = '../saveRecipe.html'
+
+    let params = new URLSearchParams(url);
+
     var IngredientsAdded = document.getElementsByName("RecipeIngredient");
 
     for (let item in IngredientsAdded) {
@@ -40,5 +40,17 @@ showRecipeButton.onclick = function() {
     url = url.replace("..%2F", "../")
     url = url.replace("=&", "?")
 
-    window.open(url)
+    if (recipeName.value == "" || authorName.value == "" || preparationTime.value == "" || cookingTime.value == "") {
+
+    }
+    else {
+        if (params.getAll("recipeStep").length == 0 || params.getAll("ingredient").length == 0) {
+
+        } 
+        else {
+            window.open(url)
+        }
+    }
+
+    
 }
