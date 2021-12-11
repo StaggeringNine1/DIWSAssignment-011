@@ -1,11 +1,5 @@
-const queryString = window.location.search;
-
-const urlParameters = new URLSearchParams(queryString);
-
-const parameterFilter = urlParameters.get("recipe");
-
 var openAddIngredientDiv = document.querySelectorAll("#OpenIngredientAdd");
-var inputAreaDiv = document.getElementById("inputIngredientDiv");
+var inputIngredientAreaDiv = document.getElementById("inputIngredientDiv");
 
 var addIngredientButton = document.getElementById("AddIngredientButton");
 var cancelIngredientButton = document.getElementById("CancelIngredientButton");
@@ -23,14 +17,14 @@ var ingredientsList = document.getElementById("ingredientsList");
 
 openAddIngredientDiv.forEach(button => {
     button.onclick = function() {
-        if (inputAreaDiv.style.display == "none") {
-            inputAreaDiv.style.display = "block";
+        if (inputIngredientAreaDiv.style.display == "none") {
+            inputIngredientAreaDiv.style.display = "block";
         }
     }
 })
 
 cancelIngredientButton.onclick = function () {
-    inputAreaDiv.style.display = "none";
+    inputIngredientAreaDiv.style.display = "none";
 
     ingredientName.value = null;
     ingredientAmount.value = null;
@@ -62,10 +56,12 @@ addIngredientButton.onclick = function () {
         ingredientsList.appendChild(ingredientUl);
         ingredientUl.style.display = "block";
 
-        inputAreaDiv.style.display = "none";
+        ingredientUl.setAttribute("name", "RecipeIngredient")
 
-    ingredientName.value = null;
-    ingredientAmount.value = null;
+        inputIngredientAreaDiv.style.display = "none";
+
+        ingredientNameEntry.value = null;
+        ingredientAmountEntry.value = null;
     }
     else {
         alertCallout.style.display = "block";

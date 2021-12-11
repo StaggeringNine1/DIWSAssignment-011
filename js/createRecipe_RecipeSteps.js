@@ -34,6 +34,7 @@ addStepButton.onclick = function() {
 
     if (stepInfo == "") {
         calloutText.textContent = "You can't have a blank step!"
+        allowedToContinue = false;
     }
 
     if (allowedToContinue) {
@@ -44,7 +45,11 @@ addStepButton.onclick = function() {
         stepList.appendChild(stepUl);
         stepUl.style.display = "block";
 
+        stepUl.setAttribute("name", "RecipeStep");
+
         inputAreaDiv.style.display = "none";
+
+        stepInput.value = null;
     }
     else {
         alertCallout.style.display = "block";
