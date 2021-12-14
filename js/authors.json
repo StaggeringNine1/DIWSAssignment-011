@@ -11,23 +11,23 @@
         "author": "Frances Quinn",
         "facebook": null,
         "twitter": null,
-        "instagram": null,
+        "instagram": "https://www.instagram.com/frances_quinn/?hl=en",
         "image": "../images/authors/frances_1x1.jpg"
     },
 
     {
         "author": "Nigella Lawson",
-        "facebook": null,
-        "twitter": null,
-        "instagram": null,
+        "facebook": "https://www.facebook.com/NigellaLawson",
+        "twitter": "https://twitter.com/Nigella_Lawson",
+        "instagram": "https://www.instagram.com/nigellalawson/",
         "image": "../images/authors/nigella_lawson_1x1.jpg"
     },
 
     {
         "author": "Rick Stein",
         "facebook": null,
-        "twitter": null,
-        "instagram": null,
+        "twitter": "https://twitter.com/ricksteinrest",
+        "instagram": "https://www.instagram.com/ricksteinrestaurants/",
         "image": "../images/authors/rick_stein_1x1.jpg"
     },
 
@@ -41,9 +41,9 @@
 
     {
         "author": "Rachel Allen",
-        "facebook": null,
+        "facebook": "https://www.facebook.com/rachelallencook",
         "twitter": null,
-        "instagram": null,
+        "instagram": "https://www.instagram.com/rachelallencooks/",
         "image": "../images/authors/rachel_allen_1x1.jpg"
     }
 ]
