@@ -23,8 +23,6 @@ for (var parameter in allIngredientParams) {
 }
 
 for (var parameter in allRecipeSteps) {
-    console.log(allRecipeSteps[parameter]);
-
     RecipeSteps.push(allRecipeSteps[parameter]);
 }
 
